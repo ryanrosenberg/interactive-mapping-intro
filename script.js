@@ -33,6 +33,10 @@ function setTheme(theme) {
   });
 }
 
+
+// I generated the theme picker using the prompt "Modify the attached 
+// HTML, CSS, and JS files to implement a theme picker, with options including 
+// light, dark, and vaporwave."
 function initThemePicker() {
   const picker = document.createElement('div');
   picker.className = 'theme-picker';
