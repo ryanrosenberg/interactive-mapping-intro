@@ -23,7 +23,7 @@ document.addEventListener('keydown', (e) => {
 });
 
 // ── Theme picker ──
-const THEMES = ['light', 'dark', 'vaporwave'];
+const THEMES = ['light', 'dark', 'vaporwave', 'nouveau'];
 
 function setTheme(theme) {
   document.documentElement.setAttribute('data-theme', theme);
@@ -42,7 +42,7 @@ function initThemePicker() {
   label.textContent = 'theme:';
   picker.appendChild(label);
 
-  const icons = { light: '☀️', dark: '🌙', vaporwave: '🌸' };
+  const icons = { light: '☀️', dark: '🌙', vaporwave: '🌸', nouveau: '🌿' };
 
   THEMES.forEach(theme => {
     const btn = document.createElement('button');
